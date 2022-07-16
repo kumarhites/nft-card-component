@@ -30,7 +30,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](./images/nft1.PNG)
-![Mobile](./images/nft mobile.PNG)
+![Mobile](./images/nft phone.PNG)
 
 ### Links
 
