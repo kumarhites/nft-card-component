@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](./index.html)
-- Live Site URL: [Live Site](https://nas22663.github.io/NFT-preview-card-component-challenge-hub/)
+- Live Site URL: [Live Site](https://master--legendary-fudge-982af3.netlify.app/)
 
 ## My process
 
@@ -57,4 +57,4 @@ CSS Grid
 
 ## Author
 
-- Frontend Mentor - [@nas22663](https://www.frontendmentor.io/profile/nas22663)
+- Frontend Mentor - [hitesh][(https://www.frontendmentor.io/profile/nas22663)]
