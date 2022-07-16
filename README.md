@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./Screenshot.png)
-![Mobile](./Screenshot-mobile.png)
+![Desktop](./images/nft1.PNG)
+![Mobile](./images/nft mobile.PNG)
 
 ### Links
 
@@ -57,4 +57,4 @@ CSS Grid
 
 ## Author
 
-- Frontend Mentor - [hitesh][(https://www.frontendmentor.io/profile/nas22663)]
+- Frontend Mentor - [hitesh](https://www.frontendmentor.io/profile/nas22663)
