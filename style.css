@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+:root {
+    --mainBG: hsl(217, 54%, 11%);
+    --cardBG: hsl(216, 50%, 16%);
+    --blueLine: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    /* primary */
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--mainBG);
+    color: var(--white);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 320px;
+    background: var(--cardBG);
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.card__img img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.overlay {
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 280px;
+    width: 280px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsl(178, 100%, 50%, .3);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 40px;
+    width: 40px !important;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.card__img:hover .overlay {
+    opacity: 1;
+}
+
+.card__text h2 {
+    font-family: 'Outfit';
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.card__text p {
+    color: var(--softBlue);
+    font-weight: 400;
+}
+
+.card__profile {
+    display: flex;
+    align-items: center;
+}
+
+.card__profile img {
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.eth_text {
+    display: flex;
+}
+
+.eth_text img {
+    margin-right: 10px;
+}
+
+#cyan {
+    color: var(--cyan)
+}
+
+.hover_text {
+    color: var(--white);
+}
+
+.hover_text:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.card__profile {
+    border-top: 1px solid var(--blueLine);
+    padding-top: 1rem;
+}
